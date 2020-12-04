@@ -1,0 +1,335 @@
+
+body {
+    font-family: 'Roboto Slab';
+    overflow-x: hidden;
+}
+
+.container {
+    width: 90% !important;
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        max-width: 1000px;
+    }
+}
+
+
+.div1 {
+    margin-top: 30px;
+}
+
+.div1 img {
+    width: 100%;
+}
+
+.span-block-yehya span {
+    display: block;
+}
+
+.number-header-yehya h2 {
+    font-size: 72px;
+    font-weight: 700;
+    color: #ffb606;
+    margin-bottom: -10px;
+}
+
+.number-header-yehya span {
+    color: #ffb606;
+    font-size: 12px;
+
+}
+
+.pra-line-yehya {
+    position: relative;
+}
+
+.line-yehya {
+    width: 1px;
+    height: 60%;
+    top: 20;
+    left: 0;
+    position: absolute;
+    background-color: #eee;
+}
+
+.pra-line-yehya h2 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    cursor: pointer;
+}
+
+.pra-line-yehya span {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+}
+
+.pra-line-yehya h2:hover {
+    color: #ffb606;
+}
+
+.pra-line-yehya span:nth-child(+2) {
+    color: #7a7a7a;
+}
+
+.pra-line-yehya span:nth-child(+2):hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.line2-yehya {
+    width: 1px;
+    height: 30%;
+    top: 57%;
+    left: 30%;
+    position: absolute;
+    background-color: #eee;
+}
+
+.span-block-yehya {
+    margin-top: -5px;
+}
+
+.discription {
+    font-size: 12px;
+    color: #787878;
+    margin-top: 12px;
+}
+
+.discription button {
+    background-color: #ffb606;
+    border: none;
+    color: #333;
+    line-height: 30px;
+    padding: 3px 22px;
+    font-size: 11px;
+    font-weight: 800;
+}
+
+.discription button:hover {
+    background-color: #b881009a;
+}
+
+.section2-yehya {
+    margin-top: 30px;
+}
+
+.h4-input-yehya {
+    position: relative;
+}
+
+.line-left-aside-yehya {
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #e5e5e5;
+}
+
+
+
+
+.line2-left-aside-yehya {
+    width: 2px;
+    height: 35px;
+    position: absolute;
+    left: 0;
+    background-color: #ffb606;
+}
+
+.margen-yehya {
+    margin-left: 15px;
+}
+
+.margen-yehya h4 {
+    line-height: 36px;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.image-free-yehya {
+    position: relative;
+    margin-top: 45px;
+}
+
+.pra-4-yehya {
+    margin-top: 45px;
+    position: relative;
+}
+
+.pra-4-p-yehya {
+    margin-left: 15px;
+}
+
+.pra-4-p-yehya h4,
+.allsection-one-left-yehya h4 {
+    line-height: 36px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.pra-4-p-yehya p:nth-of-type(1) {
+    color: #ffb606;
+    cursor: pointer;
+}
+
+.pra-4-p-yehya p {
+    font-size: 11px;
+    font-weight: 700;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.pra-4-p-yehya p:hover {
+    color: #ffb606;
+}
+
+.pra-5-yehya {
+    height: 100px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.img-h4-yehya img {
+    width: 85px;
+    height: 85%;
+}
+
+.interactive-yehya {
+    margin-left: 14px;
+}
+
+.interactive-yehya p {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 21px;
+    margin: -4px 0 10px;
+    text-transform: none;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.interactive-yehya p:hover {
+    color: #ffb606;
+
+}
+
+.interactive-yehya span {
+    color: #00d637;
+    line-height: 22px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.allsection-one-left-yehya {
+    margin-left: 15px;
+}
+
+.image-center img {
+    width: 100%;
+    margin: 45px 0;
+}
+
+.interactive-yehya p:nth-of-type(2) {
+    color: #ccc;
+    font-size: 12px;
+    font-weight: 700;
+}
+.active-setting-yehya {
+    top: 0;
+    right: 21.7%;
+}
+.maine-setting-yehya {
+    width: 200px;
+    height: 100vh;
+    background-color: #ffffff;
+    color: #333;
+    position: fixed;
+    top: 0;
+    right: -200px;
+    overflow: auto;
+    transition: 1s;
+}
+.i-setting-yehya{
+    position: fixed;
+    top: 20%;
+    right: 0%;
+    font-size: 12px;
+    font-weight: 600;
+    width: 40px;
+    background: white;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.i-setting-yehya svg {
+    text-align: center;
+    font-size: 16px;
+
+}
+.button-h4-p-image-yehya a {
+    color: #fff !important;
+    background-color: #82b440;
+    box-shadow: 0 2px 0 #6f9a37;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+    margin: auto;
+    width: 80%;
+    display: inline-block;
+    margin-left: 9%;
+    text-align: center;
+    border-radius: 1px;
+    margin-top: 10px;
+
+}
+
+.button-h4-p h4 {
+    text-align: center;
+    font-weight: 600;
+    font-family: 'Roboto';
+    font-size: 15px;
+    line-height: 1.7em;
+}
+.button-h4-p p {
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.7em;
+    text-align: center;
+    font-size: .8em;
+    padding: 10px 10px 20px;
+    margin-bottom: 0; 
+}
+.button-h4-p-image-yehya img {
+    width: 100%;
+}
+
+.image-maine-yehya img {
+    width: 60%;
+    margin-top: 5px;
+}
+
+::selection {
+    background-color: #ffb606;
+    color: #fff !important;
+}
+
+
+@media (max-width: 750px){
+    .section2-yehya {
+        display: none;
+    }
+    .line2-yehya {
+        display: none;
+    }
+}
