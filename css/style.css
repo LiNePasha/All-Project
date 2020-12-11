@@ -1,13 +1,4 @@
 
-body {
-    font-family: 'Roboto Slab';
-    overflow-x: hidden;
-}
-
-.container {
-    width: 90% !important;
-}
-
 @media (min-width: 992px) {
 
     .container,
