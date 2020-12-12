@@ -49,7 +49,19 @@ btnTakeCourse.onclick = _ => {
     loginPopup.style.display = "block";
 }
 
+// Header 
+let navLinkMop = document.querySelector("#navlinkmop"),
+    navInfo = document.querySelector(".moplinksleft"),
+    returnBack = document.querySelector(".returnback")
 
+navLinkMop.onclick = _ => {
+    navInfo.style.left = "0"
+    returnBack.style.display = "block"
+}
+returnBack.onclick = _ => {
+    navInfo.style.left = "-15rem"
+    returnBack.style.display = "none"
+}
 /*
     ===========================================
     │  2- settingIcon      (_!**!_)           │

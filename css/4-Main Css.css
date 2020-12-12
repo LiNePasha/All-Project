@@ -1005,6 +1005,30 @@ span#menuNone + .menu  a
     margin-right: 19rem;
 }
 
+.moplinksleft 
+{
+    position: absolute;
+    background: var(--color-black);
+    width: 10rem;
+    top: 6.1rem;
+    left: -15rem;
+    transition: left 0.5s;
+    -webkit-transition: left 0.5s;
+    -moz-transition: left 0.5s;
+    -ms-transition: left 0.5s;
+    -o-transition: left 0.5s;
+}
+.moplinksleft ul li 
+{
+    padding: 5px;
+    color: var(--color-white);
+}
+.returnback 
+{
+    position: absolute;
+    top: 3.7rem;
+    display: none;
+}
 /*
     =============================================
     │    3.1 Your Place In Wepsite   (_!**!_)   │
